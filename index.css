@@ -1,0 +1,282 @@
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+:root{
+    --green:#3cb815;
+    --light-green:#c0eb7b;
+    --orange: ;
+    --light-orange:#ff7e00;
+    --text:#1a2428;
+    --bg:#fff;
+}
+body{
+    color: var(--text);
+    overflow-x: hidden;
+}
+.logo{
+    font-size: 1.8rem !important;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.logo img{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 3rem;
+    border-radius: 5rem;
+    margin-right: .5rem;
+}
+li{
+    padding: .5rem 1rem;
+}
+.navbar{
+    align-items: center;
+    position: fixed !important;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar ul{
+    margin: 0;
+}
+ul a{
+    border-radius: 5rem;
+    padding: .5rem 1rem !important;
+}
+ul .nav-link:hover , .active {
+    background-color: var(--green) !important;
+    border-radius: 5rem;
+    color: white !important;
+}
+#home{
+    padding: 4rem 0 0;
+}
+#about{
+    padding: 2rem 0;
+}
+#menu{
+    padding: 4rem 0;
+}
+.banner{
+    background-image: url('banner.jpg');
+    background-position: center top;
+    background-size: cover;
+    height: 700px;
+}
+.banner .content h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    
+}
+.banner .content{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    padding: 1rem 1rem 2rem;
+    background: #00000087;
+    border-radius: .3rem;
+}
+.banner .content a{
+    text-decoration: none;
+    background-color: white;
+    color: var(--green);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.banner .content a:hover{
+    background-color: var(--green);
+    color: white !important;
+}
+.stepBox{
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.stepBox h1{
+    color: var(--green);
+    font-size: 50px;
+    font-weight: 600;
+}
+.stepBox p{
+    color: white;
+    font-size: 20px;
+}
+.highlight{
+    color: var(--green);
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+}
+.foodBox{
+    padding: 10px 5px;
+}
+.foodBox img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.foodBox h1{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.vm{
+    text-decoration: none;
+    background-color: var(--green);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.vm:hover{
+    color: var(--green);
+    background-color: white;
+    background-color: var(--light-green);
+}
+footer{
+    overflow: hidden;
+    background-color: #f8f9fa;
+    padding:10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+}
+footer i{
+    padding: 8px 10px;
+    border-radius: 5rem;
+}
+footer i:hover{
+    padding: 8px 10px;
+    border-radius: 5rem;
+    background-color: var(--green);
+    color: white;
+}
+p{
+    font-size: .8rem;
+}
+footer a{
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 1rem;
+    color: var(--text);
+    
+}
+a:hover{
+    color: var(--green);
+}
+i{
+    padding: 0 10px;
+}
+.aboutus{
+    background-image: url('about.jpg');
+    background-position: center top;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+.aboutus .content{
+    position: absolute;
+    left: 6%;
+    padding: 1rem 1rem 2rem;
+    background: #000000b0;
+    border-radius: 0.3rem;
+    width: 50%;
+    margin: 2rem auto;
+}
+.aboutus h5{
+    text-align: justify;
+}
+.foodBox{
+    padding: 10px;
+}
+.foodBox img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.foodBox h1{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.buy{
+    color: white;
+    background-color: #EA1179;
+    padding: 7px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+#contact .container{
+    background-image: url('bg2.jpg');
+    background-position: center top;
+    background-size: cover;
+    height: 700px;
+}
+#contact .container .content h1{
+    color: white;
+   
+    
+}
+#contact .container .content{
+    text-align: center;
+   padding: 1rem 1rem 2rem;
+    background: #000000bf;
+    border-radius: .3rem;
+    width: 50%;
+}
+.form input{
+    margin: 2rem 0;
+    width: 100% !important;
+}
+button{
+    background-color: var(--green);
+    color: white;
+    padding: 10px;
+    border-radius: 5px !important;
+    font-weight: 600;
+    border: 0;
+}
+button:hover{
+   color: var(--green);
+    background-color: white;
+}
+#contact form{
+    width: 75%;
+}
+.menu p{
+    font-size: 1rem;
+}
+.price{
+    font-size: 1rem;
+    font-weight: 600;
+}
+@media only screen and (max-width: 768px) and (min-width: 350px) {
+    .col100{
+        width: 100% !important;
+    }
+    .banner .content{
+        left: 0;
+    top: 20%;
+    }
+    .aboutus .content{
+        width: 90% !important;
+    }
+}
