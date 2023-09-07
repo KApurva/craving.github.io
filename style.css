@@ -61,7 +61,7 @@ ul .nav-link:hover , .active {
     padding: 4rem 0;
 }
 .banner{
-    background-image: url('/img/banner.jpg');
+    background-image: url('banner.jpg');
     background-position: center top;
     background-size: cover;
     height: 700px;
@@ -183,7 +183,7 @@ i{
     padding: 0 10px;
 }
 .aboutus{
-    background-image: url('/img/about.jpg');
+    background-image: url('about.jpg');
     background-position: center top;
     background-size: cover;
     height: 600px;
@@ -225,7 +225,7 @@ i{
     margin-top: 2px;
 }
 #contact .container{
-    background-image: url('/img/bg2.jpg');
+    background-image: url('bg2.jpg');
     background-position: center top;
     background-size: cover;
     height: 700px;
